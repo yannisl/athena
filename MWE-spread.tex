@@ -1,0 +1,245 @@
+\documentclass[a5paper]{scrbook}
+%\usepackage[top=10mm,bottom=60mm,left=25mm,right=25mm, a4paper]{geometry}
+\usepackage[pass]{geometry}
+%\newgeometry{left=5cm,right=5cm,top=0in,bottom=1.5cm, %left is inner
+%    marginparsep=5mm,marginparwidth=30mm,
+%    headheight=20mm,headsep=1cm,
+%    footskip=1.5cm}
+
+\usepackage{microtype,soul,filecontents,pifont,booktabs}
+\usepackage[usenames,dvipsnames,svgnames]{xcolor}
+\usepackage{amsmath,etoolbox}
+ \usepackage{pgf,fp}
+\usepackage{tikz}
+\usepackage{picture}
+\usepackage{lettrine,caption,multicol}
+
+\usepackage{lipsum,soul}
+%\usepackage{palatino}
+\usepackage{calligra}
+\usepackage{fourier-orns}
+%\usepackage[T1]{fontenc}
+
+\usepackage{eso-pic}
+\usepackage{layouts}
+\usepackage{alphalph}
+\usepackage{caption}
+\usepackage{fmtcount}
+\usepackage[listings,theorems]{tcolorbox}
+%\usepackage[charter]{mathdesign}
+% \def\rmdefault{bch} % not scaled
+% \def\ttdefault{blg}
+\usepackage{filecontents,ragged2e,changepage}
+\makeatletter
+%% decide on fonts
+\IfFileExists{ifxetex.sty}{%
+  \RequirePackage{ifxetex}}{}
+  \ifxetex
+     \usepackage{fontspec}
+     \defaultfontfeatures{Mapping=tex-text}
+     \setmainfont{Linux Libertine G}
+     %\setsansfont{Georgia}
+  \else
+     \usepackage{mathpazo}
+     \usepackage[T1]{fontenc}
+  \fi
+
+
+% Define some shortcut macros for error/warning/info logging.
+
+\newcommand{\athenawarning}[1]{\PackageWarning{athena}{#1}}
+\athenawarning{We are starting on an adventure!}
+%
+
+%\usetikzlibrary{decorations.markings}
+%\usepackage{doc}
+%\usetikzlibrary{calc} 
+\usetikzlibrary{decorations,decorations.shapes,shapes,fadings,patterns}
+     % We need lots of libraries...
+        \usetikzlibrary{
+          arrows,
+          calc,
+          fit,
+          patterns,
+          plotmarks,
+          shapes.geometric,
+          shapes.misc,
+          shapes.symbols,
+          shapes.arrows,
+          shapes.callouts,
+          shapes.multipart,
+          shapes.gates.logic.US,
+          shapes.gates.logic.IEC,
+          circuits.logic.US,
+          circuits.logic.IEC,
+          circuits.logic.CDH,
+          circuits.ee.IEC,
+          datavisualization,
+          datavisualization.formats.functions,
+          er,
+          automata,
+          backgrounds,
+          chains,
+          topaths,
+          trees,
+          petri,
+          mindmap,
+          matrix,
+          calendar,
+          folding,
+          fadings,
+          shadings,
+          spy,
+          through,
+          turtle,
+          positioning,
+          scopes,
+          decorations.fractals,
+          decorations.shapes,
+          decorations.text,
+          decorations.pathmorphing,
+          decorations.pathreplacing,
+          decorations.footprints,
+          decorations.markings,
+          shadows,
+          lindenmayersystems,
+          intersections,
+          fixedpointarithmetic,
+          fpu,
+          svg.path,
+          external,
+        }
+
+
+
+\definecolor{theblue} {rgb}{0.02,0.04,0.48}
+\definecolor{thered}  {rgb}{0.65,0.04,0.07}
+\definecolor{thegreen}{rgb}{0.06,0.44,0.08}
+\definecolor{thelightgreen}{rgb}{0.06,0.44,0.06}
+\definecolor{thegrey} {gray}{0.5}
+\definecolor{thegray} {gray}{0.5}
+\definecolor{thedarkgray} {gray}{0.95}
+\definecolor{theshade}{gray}{0.94}
+\definecolor{theframe}{gray}{0.75}
+\definecolor{thecream}{rgb}{1,0.95,0.4}
+\definecolor{spot}{rgb}{0,0.2,0.6}
+\definecolor{boxframe}{gray}{0.8}
+\definecolor{boxfill}{rgb}{0.95,0.95,0.99}
+\definecolor{theoption}{rgb}{0.118,0.546,0.222}
+\definecolor{themacro}{rgb}{0.784,0.06,0.176}
+\definecolor{ExampleFrame}{rgb}{0.628,0.705,0.942}
+\definecolor{ExampleBack}{rgb}{0.963,0.971,0.994}
+\definecolor{Hyperlink}{rgb}{0.281,0.275,0.485}
+\colorlet{thehyperlink}{theblue}
+\newcommand*{\defaultcolor}{\color{black}}
+\newcommand*{\spotcolor}{\color{spot}}
+
+\newcommand\lorem{Fusce adipiscing justo nec ante. Nullam in enim.
+ Pellentesque felis orci, sagittis ac, malesuada et, facilisis in,
+ ligula. Nunc non magna sit amet mi aliquam dictum. In mi. Curabitur
+ sollicitudin justo sed quam et quadd. \par}
+
+\pgfkeys{/xpage/.is family}
+
+\def\cxset{\pgfqkeys{/xpage}} %Notice this is pgf q keys
+\usepackage{xgeometry}
+
+\begin{document}
+\setlength\paperwidth@cx{\paperwidth}
+\setlength\paperheight@cx{\paperheight}
+\setlength\bindingcorrection{0.25in}
+
+\pgfmathsetmacro\xsteps{48}
+\pgfmathsetmacro\ysteps{48}
+
+\drawclassicspread
+
+% draw a trial layout based on some values we have passed
+\drawtriallayout
+
+\newpage\clearpage
+
+\drawtriallayout
+
+
+\printgeometryvalues
+
+\readability
+
+\newpage
+\begin{table}[ht]
+\caption{North American paper sizes.}
+\begin{tabular}{lllll}
+\toprule
+Size &width (mm)  &Height (mm)  &Width (in) &Height (in)\\
+\midrule
+US Ledger   &432 &279 & 17.0 &11.0\\
+US Tabloid &279 & 432 & 11.0 &17.0\\
+US Letter  &216 & 279 & 8.5 &11.0\\
+US Legal   &216 &356 & 8.5 & 14.0\\
+Government Letter &203 & 267 & 8.0 &10.5\\
+Junior Legal &203 & 127 & 8.0 & 5.0\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\clearpage
+
+\begin{table}[ht]
+\caption{A series paper sizes.}
+\begin{tabular}{lllll}
+\toprule
+Size &width (mm)  &Height (mm)  &Width (in) &Height (in)\\
+\midrule
+A0   &841 &1189 &33.1 & 46.8\\
+A1   &594 & 841 &23.4 & 33.1\\
+A2   & 420 & 594 &16.5 &23.4\\
+A3   &297 & 420 &11.7 &16.5\\
+A4   &210 &297 &8.3 &11.7\\ 
+A5   &148 & 210 &5.8 & 8.3\\
+A6   &105 & 148 & 4.1 & 5.8\\
+A7   & 74 & 105 & 2.9 & 4.1\\
+A8   &52 & 74 & 2.0 & 2.9\\
+A9   &37 & 52 & 1.5 & 2.0\\
+A10  & 26 & 37 & 1.0 & 1.5\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[ht]
+\caption{ANSI series paper sizes.}
+\begin{tabular}{lllll}
+\toprule
+Size &width (mm)  &Height (mm)  &Width (in) &Height (in)\\
+\midrule
+ANSI A &216 &279 &8.5 &11.0\\
+ANSI B &279 &432 &11.0 &17.0\\
+ANSI C &432 &559 &17.0 &22.0\\
+ANSI D &559 &864 &22.0 &34.0\\
+ANSI E &864 &1118 &34.0 &44.0\\
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+\clearpage
+
+\section{Swedish Standard}
+The Swedish standard SIS 014711 generalized the ISO system of A, B, and C formats by adding D, E, F, and G formats to it. Its D format sits between a B format and the next larger A format (just like C sits between A and the next larger B). The remaining formats fit in between all these formats, such that the sequence of formats A4, E4, C4, G4, B4, F4, D4, H4, A3 is a geometric progression, in which the dimensions grow by a factor 21/16 from one size to the next. However, the SIS 014711 standard does not define any size between a D format and the next larger A format (called H in the previous example). Of these additional formats, G5 and E5 are popular in Sweden for printing dissertations,but the other formats have not turned out to be particularly useful in practice and they have not caught on internationally.
+
+\begin{table}[ht]
+\caption{Swedish Extension}
+\begin{tabular}{lllll}
+\toprule
+Size &width (mm)  &Height (mm)  &Width (in) &Height (in)\\
+\midrule
+G5 &169 &239 &6.65 &9.41\\
+E5  &155 &220 &6.10 &8.66\\
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+\lipsum
+\end{document}

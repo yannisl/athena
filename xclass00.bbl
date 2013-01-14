@@ -1,0 +1,3020 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\preamble{%
+\RequireBiber[2]
+}
+
+\entry{set}{set}{}
+  \set{herrmann,aksin,yoon}
+  \field{annotation}{%
+  A \texttt{set} with three members%
+  }
+\endentry
+
+\entry{stdmodel}{set}{}
+  \set{glashow,weinberg,salam}
+  \field{annotation}{%
+  A \texttt{set} with three members discussing the standard model of particle
+  physics%
+  }
+\endentry
+
+\entry{aksin}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Aks{\i}n}{A.}%
+     {{\"O}zge}{{\"O}.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {T{\"u}rkmen}{T.}%
+     {Hayati}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Artok}{A.}%
+     {Levent}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{\k{C}}etinkaya}{{\k{C}}.}%
+     {Bekir}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ni}{N.}%
+     {Chaoying}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {B{\"u}y{\"u}kg{\"u}ng{\"o}r}{B.}%
+     {Orhan}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{\"O}zkal}{{\"O}.}%
+     {Erhan}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AO+1}
+  \strng{fullhash}{AOTHALCBNCBOOE1}
+  \field{labelyear}{2006}
+  \field{sortinit}{A}
+  \field{indextitle}{Effect of immobilization on catalytic characteristics}
+  \field{number}{13}
+  \field{pages}{3027\bibrangedash 3036}
+  \field{title}{Effect of immobilization on catalytic characteristics of
+  saturated Pd-N-heterocyclic carbenes in Mizoroki-Heck reactions}
+  \field{volume}{691}
+  \field{journaltitle}{J.~Organomet. Chem.}
+  \field{year}{2006}
+\endentry
+
+\entry{almendro}{patent}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Almendro}{A.}%
+     {Jos{\'e}~L.}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mart{\'i}n}{M.}%
+     {Jacinto}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {S{\'a}nchez}{S.}%
+     {Alberto}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nozal}{N.}%
+     {Fernando}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AJL+1}
+  \strng{fullhash}{AJLMJSANF1}
+  \field{labelyear}{1998}
+  \field{sortinit}{A}
+  \field{hyphenation}{german}
+  \field{number}{EU-29702195U}
+  \field{title}{Elektromagnetisches Signalhorn}
+  \list{location}{3}{%
+    {countryfr}%
+    {countryuk}%
+    {countryde}%
+  }
+  \field{type}{patent}
+  \field{annotation}{%
+  This is a \texttt{patent} entry with a \texttt{location} field. The number is
+  given in the \texttt{number} field. Note the format of the \texttt{location}
+  field in the database file. Compare \texttt{laufenberg}, \texttt{sorace}, and
+  \texttt{kowalik}%
+  }
+  \field{year}{1998}
+\endentry
+
+\entry{angenendt}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Angenendt}{A.}%
+     {Arnold}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AA1}
+  \strng{fullhash}{AA1}
+  \field{labelyear}{2002}
+  \field{sortinit}{A}
+  \field{hyphenation}{german}
+  \field{indextitle}{In Honore Salvatoris}
+  \field{pages}{431\bibrangedash 456, 791\bibrangedash 823}
+  \field{shorttitle}{In Honore Salvatoris}
+  \field{title}{In Honore Salvatoris~-- Vom Sinn und Unsinn der
+  Patrozinienkunde}
+  \field{volume}{97}
+  \field{journaltitle}{Revue d'Histoire Eccl{\'e}siastique}
+  \field{annotation}{%
+  A German article in a French journal. Apart from that, a typical
+  \texttt{article} entry. Note the \texttt{indextitle} field%
+  }
+  \field{year}{2002}
+\endentry
+
+\entry{aristotle:rhetoric}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Aristotle}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Cope}{C.}%
+     {Edward~Meredith}{E.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{commentator}{1}{}{%
+    {{}%
+     {Cope}{C.}%
+     {Edward~Meredith}{E.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \keyw{primary}
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{labelyear}{1877}
+  \field{sortinit}{A}
+  \field{hyphenation}{british}
+  \field{indextitle}{Rhetoric of Aristotle, The}
+  \field{shorttitle}{Rhetoric}
+  \field{title}{The Rhetoric of Aristotle with a commentary by the late Edward
+  Meredith Cope}
+  \field{volumes}{3}
+  \field{annotation}{%
+  A commented edition. Note the concatenation of the \texttt{editor} and
+  \texttt{commentator} fields as well as the \texttt{volumes},
+  \texttt{sorttitle}, and \texttt{indextitle} fields%
+  }
+  \field{year}{1877}
+\endentry
+
+\entry{aristotle:anima}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Aristotle}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Hicks}{H.}%
+     {Robert~Drew}{R.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \keyw{primary}
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{labelyear}{1907}
+  \field{sortinit}{A}
+  \field{hyphenation}{british}
+  \field{title}{De Anima}
+  \list{location}{1}{%
+    {Cambridge}%
+  }
+  \field{annotation}{%
+  A \texttt{book} entry with an \texttt{author} and an \texttt{editor}%
+  }
+  \field{year}{1907}
+\endentry
+
+\entry{aristotle:physics}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Aristotle}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{translator}{2}{}{%
+    {{}%
+     {Wicksteed}{W.}%
+     {P.~H.}{P.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cornford}{C.}%
+     {F.~M.}{F.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. P. Putnam}%
+  }
+  \keyw{primary}
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{labelyear}{1929}
+  \field{sortinit}{A}
+  \field{hyphenation}{american}
+  \field{shorttitle}{Physics}
+  \field{title}{Physics}
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{annotation}{%
+  A \texttt{book} entry with a \texttt{translator} field%
+  }
+  \field{year}{1929}
+\endentry
+
+\entry{aristotle:poetics}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Aristotle}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Lucas}{L.}%
+     {D.~W.}{D.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Clarendon Press}%
+  }
+  \keyw{primary}
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{labelyear}{1968}
+  \field{sortinit}{A}
+  \field{hyphenation}{british}
+  \field{series}{Clarendon Aristotle}
+  \field{shorttitle}{Poetics}
+  \field{title}{Poetics}
+  \list{location}{1}{%
+    {Oxford}%
+  }
+  \field{annotation}{%
+  A \texttt{book} entry with an \texttt{author} and an \texttt{editor} as well
+  as a \texttt{series} field%
+  }
+  \field{year}{1968}
+\endentry
+
+\entry{augustine}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Augustine}{A.}%
+     {Robert~L.}{R.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Marcel Dekker}%
+  }
+  \strng{namehash}{ARL1}
+  \strng{fullhash}{ARL1}
+  \field{labelyear}{1995}
+  \field{sortinit}{A}
+  \field{hyphenation}{american}
+  \field{shorttitle}{Heterogeneous catalysis}
+  \field{title}{Heterogeneous catalysis for the synthetic chemist}
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{annotation}{%
+  A plain \texttt{book} entry%
+  }
+  \field{year}{1995}
+\endentry
+
+\entry{averroes/hercz}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Averroes}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Hercz}{H.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{translator}{1}{}{%
+    {{}%
+     {Hercz}{H.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {S.~Hermann}%
+  }
+  \keyw{primary}
+  \strng{namehash}{A2}
+  \strng{fullhash}{A2}
+  \field{labelyear}{1869}
+  \field{sortinit}{A}
+  \field{hyphenation}{german}
+  \field{indexsorttitle}{Drei Abhandlungen uber die Conjunction}
+  \field{indextitle}{Drei Abhandlungen {\"u}ber die Conjunction}
+  \field{shorttitle}{Drei Abhandlungen}
+  \field{subtitle}{Von Averroes (Vater und Sohn), aus dem Arabischen
+  {\"u}bersetzt von Samuel Ibn Tibbon}
+  \field{title}{Drei Abhandlungen {\"u}ber die Conjunction des separaten
+  Intellects mit dem Menschen}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{annotation}{%
+  A \texttt{book} entry. Note the concatenation of the \texttt{editor} and
+  \texttt{translator} fields as well as the \texttt{indextitle} and
+  \texttt{indexsorttitle} fields%
+  }
+  \field{year}{1869}
+\endentry
+
+\entry{averroes/hannes}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Averroes}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Hannes}{H.}%
+     {Ludwig}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{translator}{1}{}{%
+    {{}%
+     {Hannes}{H.}%
+     {Ludwig}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{annotator}{1}{}{%
+    {{}%
+     {Hannes}{H.}%
+     {Ludwig}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {C.~A. Kaemmerer}%
+  }
+  \keyw{primary}
+  \strng{namehash}{A2}
+  \strng{fullhash}{A2}
+  \field{labelyear}{1892}
+  \field{sortinit}{A}
+  \field{hyphenation}{german}
+  \field{indexsorttitle}{Uber die Moglichkeit der Conjunktion}
+  \field{indextitle}{{\"U}ber die M{\"o}glichkeit der Conjunktion}
+  \field{shorttitle}{{\"U}ber die M{\"o}glichkeit der Conjunktion}
+  \field{title}{Des Averro{\"e}s Abhandlung: \mkbibquote{{\"U}ber die
+  M{\"o}glichkeit der Conjunktion} oder \mkbibquote{{\"U}ber den materiellen
+  Intellekt}}
+  \list{location}{1}{%
+    {Halle an der Saale}%
+  }
+  \field{annotation}{%
+  An annotated edition. Note the concatenation of the \texttt{editor},
+  \texttt{translator}, and \texttt{annotator} fields. Also note the
+  \texttt{shorttitle}, \texttt{indextitle}, \texttt{sorttitle}, and
+  \texttt{indexsorttitle} fields%
+  }
+  \field{year}{1892}
+\endentry
+
+\entry{averroes/bland}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Averroes}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Bland}{B.}%
+     {Kalman~P.}{K.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{translator}{1}{}{%
+    {{}%
+     {Bland}{B.}%
+     {Kalman~P.}{K.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Jewish Theological Seminary of America}%
+  }
+  \keyw{primary}
+  \strng{namehash}{A2}
+  \strng{fullhash}{A2}
+  \field{labelyear}{1982}
+  \field{sortinit}{A}
+  \field{hyphenation}{american}
+  \field{indextitle}{Epistle on the Possibility of Conjunction, The}
+  \field{number}{7}
+  \field{series}{Moreshet: Studies in Jewish History, Literature and Thought}
+  \field{shorttitle}{Possibility of Conjunction}
+  \field{title}{The Epistle on the Possibility of Conjunction with the Active
+  Intellect by Ibn Rushd with the Commentary of Moses Narboni}
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{annotation}{%
+  A \texttt{book} entry with a \texttt{series} and a \texttt{number}. Note the
+  concatenation of the \texttt{editor} and \texttt{translator} fields as well
+  as the \texttt{indextitle} field%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{baez/online}{online}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Baez}{B.}%
+     {John~C.}{J.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lauda}{L.}%
+     {Aaron~D.}{A.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJCLAD1}
+  \strng{fullhash}{BJCLAD1}
+  \field{labelyear}{2004}
+  \field{extrayear}{2}
+  \field{sortinit}{B}
+  \verb{eprint}
+  \verb math/0307200v3
+  \endverb
+  \field{hyphenation}{american}
+  \field{title}{Higher-Dimensional Algebra V: 2-Groups}
+  \field{version}{3}
+  \field{annotation}{%
+  An \texttt{online} reference from arXiv. Note the \texttt{eprint} and
+  \texttt{eprinttype} fields. Compare \texttt{baez\slash article} which is the
+  same item given as an \texttt{article} entry with eprint information%
+  }
+  \field{eprinttype}{arxiv}
+  \field{day}{27}
+  \field{month}{10}
+  \field{year}{2004}
+\endentry
+
+\entry{baez/article}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Baez}{B.}%
+     {John~C.}{J.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lauda}{L.}%
+     {Aaron~D.}{A.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJCLAD1}
+  \strng{fullhash}{BJCLAD1}
+  \field{labelyear}{2004}
+  \field{extrayear}{1}
+  \field{sortinit}{B}
+  \verb{eprint}
+  \verb math/0307200v3
+  \endverb
+  \field{hyphenation}{american}
+  \field{pages}{423\bibrangedash 491}
+  \field{title}{Higher-Dimensional Algebra V: 2-Groups}
+  \field{version}{3}
+  \field{volume}{12}
+  \field{journaltitle}{Theory and Applications of Categories}
+  \field{annotation}{%
+  An \texttt{article} with \texttt{eprint} and \texttt{eprinttype} fields. Note
+  that the arXiv reference is transformed into a clickable link if
+  \texttt{hyperref} support has been enabled. Compare \texttt{baez\slash
+  online}, which is the same item given as an \texttt{online} entry%
+  }
+  \field{eprinttype}{arxiv}
+  \field{year}{2004}
+\endentry
+
+\entry{bertram}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bertram}{B.}%
+     {Aaron}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wentworth}{W.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BAWR1}
+  \strng{fullhash}{BAWR1}
+  \field{labelyear}{1996}
+  \field{sortinit}{B}
+  \field{hyphenation}{american}
+  \field{number}{2}
+  \field{pages}{529\bibrangedash 571}
+  \field{shorttitle}{Gromov invariants}
+  \field{title}{Gromov invariants for holomorphic maps on Riemann surfaces}
+  \field{volume}{9}
+  \field{journaltitle}{J.~Amer. Math. Soc.}
+  \field{annotation}{%
+  An \texttt{article} entry with a \texttt{volume} and a \texttt{number} field%
+  }
+  \field{year}{1996}
+\endentry
+
+\entry{brandt}{incollection}{useprefix=false}
+  \name{author}{2}{}{%
+    {{}%
+     {Brandt}{B.}%
+     {Ahasver}{A.}%
+     {von}{v.}%
+     {}{}}%
+    {{}%
+     {Hoffmann}{H.}%
+     {Erich}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Seibt}{S.}%
+     {Ferdinand}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Klett-Cotta}%
+  }
+  \strng{namehash}{BAvHE1}
+  \strng{fullhash}{BAvHE1}
+  \field{labelyear}{1987}
+  \field{sortinit}{B}
+  \field{booktitle}{Europa im Hoch- und Sp{\"a}tmittelalter}
+  \field{hyphenation}{german}
+  \field{indexsorttitle}{Nordischen Lander von der Mitte des 11. Jahrhunderts
+  bis 1448}
+  \field{indextitle}{Nordischen L{\"a}nder von der Mitte des 11.~Jahrhunderts
+  bis 1448, Die}
+  \field{number}{2}
+  \field{pages}{884\bibrangedash 917}
+  \field{series}{Handbuch der europ{\"a}ischen Geschichte}
+  \field{shorttitle}{Die nordischen L{\"a}nder}
+  \field{title}{Die nordischen L{\"a}nder von der Mitte des 11.~Jahrhunderts
+  bis 1448}
+  \list{location}{1}{%
+    {Stuttgart}%
+  }
+  \field{annotation}{%
+  An \texttt{incollection} entry with a \texttt{series} and a \texttt{number}.
+  Note the format of the printed name and compare the \texttt{useprefix} option
+  in the \texttt{options} field as well as \texttt{vangennep}. Also note the
+  \texttt{indextitle, and \texttt{indexsorttitle} fields}%
+  }
+  \field{year}{1987}
+\endentry
+
+\entry{cms}{manual}{}
+  \list{publisher}{1}{%
+    {University of Chicago Press}%
+  }
+  \field{label}{CMS}
+  \field{labelyear}{2003}
+  \field{sortinit}{C}
+  \field{edition}{15}
+  \field{hyphenation}{american}
+  \field{indextitle}{Chicago Manual of Style, The}
+  \field{isbn}{0-226-10403-6}
+  \field{shorttitle}{Chicago Manual of Style}
+  \field{subtitle}{The Essential Guide for Writers, Editors, and Publishers}
+  \field{title}{The Chicago Manual of Style}
+  \list{location}{1}{%
+    {Chicago, Ill.}%
+  }
+  \field{annotation}{%
+  This is a \texttt{manual} entry without an \texttt{author} or
+  \texttt{editor}. Note the \texttt{label} field in the database file which is
+  provided for author-year citation styles. Also note the \texttt{sorttitle}
+  and \texttt{indextitle} fields. By default, all entries without an
+  \texttt{author} or \texttt{editor} are alphabetized by \texttt{title} but we
+  want this entry to be alphabetized under \enquote*{C} rather than
+  \enquote*{T}. There's also an \texttt{isbn} field%
+  }
+  \field{year}{2003}
+\endentry
+
+\entry{chiu}{report}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Chiu}{C.}%
+     {Willy~W.}{W.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chow}{C.}%
+     {We~Min}{W.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CWWCWM1}
+  \strng{fullhash}{CWWCWM1}
+  \field{labelyear}{1978}
+  \field{sortinit}{C}
+  \field{hyphenation}{american}
+  \field{indextitle}{Hybrid Hierarchical Model, A}
+  \field{number}{RC-6947}
+  \field{title}{A Hybrid Hierarchical Model of a Multiple Virtual Storage (MVS)
+  Operating System}
+  \list{institution}{1}{%
+    {IBM}%
+  }
+  \field{type}{resreport}
+  \field{annotation}{%
+  This is a \texttt{report} entry for a research report. Note the format of the
+  \texttt{type} field in the database file which uses a localization key. The
+  number of the report is given in the \texttt{number} field. Also note the
+  \texttt{sorttitle} and \texttt{indextitle} fields%
+  }
+  \field{year}{1978}
+\endentry
+
+\entry{cicero}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cicero}{C.}%
+     {Marcus~Tullius}{M.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Blank-Sangmeister}{B.-S.}%
+     {Ursula}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{translator}{1}{}{%
+    {{}%
+     {Blank-Sangmeister}{B.-S.}%
+     {Ursula}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{afterword}{1}{}{%
+    {{}%
+     {Thraede}{T.}%
+     {Klaus}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{2}{%
+    {langlatin}%
+    {langgerman}%
+  }
+  \list{publisher}{1}{%
+    {Reclam}%
+  }
+  \strng{namehash}{CMT1}
+  \strng{fullhash}{CMT1}
+  \field{labelyear}{1995}
+  \field{sortinit}{C}
+  \field{hyphenation}{german}
+  \field{indextitle}{De natura deorum}
+  \field{shorttitle}{De natura deorum}
+  \field{title}{De natura deorum. {\"U}ber das Wesen der G{\"o}tter}
+  \list{location}{1}{%
+    {Stuttgart}%
+  }
+  \field{annotation}{%
+  A bilingual edition of Cicero's \emph{De natura deorum}, with a German
+  translation. Note the format of the \texttt{language} field in the database
+  file, the concatenation of the \texttt{editor} and \texttt{translator}
+  fields, and the \texttt{afterword} field%
+  }
+  \field{year}{1995}
+\endentry
+
+\entry{coleridge}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Coleridge}{C.}%
+     {Samuel~Taylor}{S.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{3}{}{%
+    {{}%
+     {Coburn}{C.}%
+     {Kathleen}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Engell}{E.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bate}{B.}%
+     {W.~Jackson}{W.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Routledge}%
+    {Kegan Paul}%
+  }
+  \strng{namehash}{CST1}
+  \strng{fullhash}{CST1}
+  \field{labelyear}{1983}
+  \field{sortinit}{C}
+  \field{hyphenation}{british}
+  \field{indextitle}{Biographia literaria}
+  \field{maintitle}{The collected works of Samuel Taylor Coleridge}
+  \field{number}{75}
+  \field{part}{2}
+  \field{series}{Bollingen Series}
+  \field{shorttitle}{Biographia literaria}
+  \field{title}{Biographia literaria, or Biographical sketches of my literary
+  life and opinions}
+  \field{volume}{7}
+  \list{location}{1}{%
+    {London}%
+  }
+  \field{annotation}{%
+  One (partial) volume of a multivolume book. This is a \texttt{book} entry
+  with a \texttt{volume} and a \texttt{part} field which explicitly refers to
+  the second (physical) part of the seventh (logical) volume. Also note the
+  \texttt{series} and \texttt{number} fields%
+  }
+  \field{year}{1983}
+\endentry
+
+\entry{cotton}{book}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Cotton}{C.}%
+     {Frank~Albert}{F.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilkinson}{W.}%
+     {Geoffrey}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Murillio}{M.}%
+     {Carlos~A.}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bochmann}{B.}%
+     {Manfred}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley}%
+  }
+  \strng{namehash}{CFA+1}
+  \strng{fullhash}{CFAWGMCABM1}
+  \field{labelyear}{1999}
+  \field{sortinit}{C}
+  \field{edition}{6}
+  \field{hyphenation}{british}
+  \field{title}{Advanced inorganic chemistry}
+  \list{location}{1}{%
+    {Chichester}%
+  }
+  \field{annotation}{%
+  A \texttt{book} entry with \arabic{author} authors and an \texttt{edition}
+  field. By default, long \texttt{author} and \texttt{editor} lists are
+  automatically truncated. This is configurable%
+  }
+  \field{year}{1999}
+\endentry
+
+\entry{ctan}{online}{}
+  \field{label}{CTAN}
+  \field{labelyear}{2006}
+  \field{sortinit}{C}
+  \field{hyphenation}{american}
+  \field{subtitle}{The Comprehensive TeX Archive Network}
+  \field{title}{CTAN}
+  \verb{url}
+  \verb http://www.ctan.org
+  \endverb
+  \field{annotation}{%
+  This is an \texttt{online} entry. The \textsc{url}, which is given in the
+  \texttt{url} field, is transformed into a clickable link if \texttt{hyperref}
+  support has been enabled. Note the format of the \texttt{urldate} field
+  (\texttt{yyyy-mm-dd}) in the database file. Also note the \texttt{label}
+  field which may be used as a fallback by citation styles which need an
+  \texttt{author} and\slash or a \texttt{year}%
+  }
+  \field{year}{2006}
+  \field{urlday}{01}
+  \field{urlmonth}{10}
+  \field{urlyear}{2006}
+\endentry
+
+\entry{britannica}{collection}{useeditor=false}
+  \name{editor}{1}{}{%
+    {{}%
+     {Preece}{P.}%
+     {Warren~E.}{W.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Encyclop{\ae}dia Britannica}%
+  }
+  \field{label}{EB}
+  \field{labelyear}{2003}
+  \field{sortinit}{E}
+  \field{edition}{15}
+  \field{hyphenation}{british}
+  \field{indextitle}{Encyclop{\ae}dia Britannica, The New}
+  \field{shorttitle}{Encyclop{\ae}dia Britannica}
+  \field{title}{The New Encyclop{\ae}dia Britannica}
+  \field{volumes}{32}
+  \list{location}{1}{%
+    {Chicago, Ill.}%
+  }
+  \field{annotation}{%
+  This is a \texttt{collection} entry for an encyclopedia. Note the
+  \texttt{useeditor} option in the \texttt{options} field as well as the
+  \texttt{sorttitle} field. We want this entry to be cited and alphabetized by
+  title even though there is an editor. In addition to that, we want the title
+  to be alphabetized under \enquote*{E} rather than \enquote*{T}. Also note the
+  \texttt{label} field which is provided for author-year citation styles%
+  }
+  \field{year}{2003}
+\endentry
+
+\entry{gaonkar}{collection}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Gaonkar}{G.}%
+     {Dilip~Parameshwar}{D.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Duke University Press}%
+  }
+  \strng{namehash}{GDP1}
+  \strng{fullhash}{GDP1}
+  \field{labelyear}{2001}
+  \field{sortinit}{G}
+  \field{hyphenation}{american}
+  \field{isbn}{0-822-32714-7}
+  \field{title}{Alternative Modernities}
+  \list{location}{2}{%
+    {Durham}%
+    {London}%
+  }
+  \field{annotation}{%
+  This is a \texttt{collection} entry. Note the format of the \texttt{location}
+  field in the database file as well as the \texttt{isbn} field%
+  }
+  \field{year}{2001}
+\endentry
+
+\entry{geer}{thesis}{useprefix=false}
+  \name{author}{1}{}{%
+    {{}%
+     {Geer}{G.}%
+     {Ingrid}{I.}%
+     {de}{d.}%
+     {}{}}%
+  }
+  \strng{namehash}{GId1}
+  \strng{fullhash}{GId1}
+  \field{labelyear}{1985}
+  \field{sortinit}{G}
+  \field{hyphenation}{british}
+  \field{subtitle}{The Orkney Earldom of the Twelfth Century. A Musicological
+  Study}
+  \field{title}{Earl, Saint, Bishop, Skald~-- and Music}
+  \list{location}{1}{%
+    {Uppsala}%
+  }
+  \list{institution}{1}{%
+    {Uppsala Universitet}%
+  }
+  \field{type}{phdthesis}
+  \field{annotation}{%
+  This is a typical \texttt{thesis} entry for a PhD thesis. Note the
+  \texttt{type} field in the database file which uses a localization key. Also
+  note the format of the printed name and compare the \texttt{useprefix} option
+  in the \texttt{options} field as well as \texttt{vangennep}%
+  }
+  \field{year}{1985}
+\endentry
+
+\entry{gerhardt}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gerhardt}{G.}%
+     {Michael~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Duke University Press}%
+  }
+  \strng{namehash}{GMJ1}
+  \strng{fullhash}{GMJ1}
+  \field{labelyear}{2000}
+  \field{sortinit}{G}
+  \field{hyphenation}{american}
+  \field{indextitle}{Federal Appointments Process, The}
+  \field{shorttitle}{Federal Appointments Process}
+  \field{subtitle}{A Constitutional and Historical Analysis}
+  \field{title}{The Federal Appointments Process}
+  \list{location}{2}{%
+    {Durham}%
+    {London}%
+  }
+  \field{annotation}{%
+  This is a \texttt{book} entry. Note the format of the \texttt{location} field
+  as well as the \texttt{sorttitle} and \texttt{indextitle} fields%
+  }
+  \field{year}{2000}
+\endentry
+
+\entry{gillies}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gillies}{G.}%
+     {Alexander}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GA1}
+  \strng{fullhash}{GA1}
+  \field{labelyear}{1933}
+  \field{sortinit}{G}
+  \field{hyphenation}{british}
+  \field{pages}{46\bibrangedash 67}
+  \field{series}{newseries}
+  \field{title}{Herder and the Preparation of Goethe's Idea of World
+  Literature}
+  \field{volume}{9}
+  \field{journaltitle}{Publications of the English Goethe Society}
+  \field{annotation}{%
+  An \texttt{article} entry with a \texttt{series} and a \texttt{volume} field.
+  Note that format of the \texttt{series} field in the database file%
+  }
+  \field{year}{1933}
+\endentry
+
+\entry{glashow}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Glashow}{G.}%
+     {Sheldon}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GS1}
+  \strng{fullhash}{GS1}
+  \field{labelyear}{1961}
+  \field{sortinit}{G}
+  \field{pages}{579\bibrangedash 588}
+  \field{title}{Partial Symmetries of Weak Interactions}
+  \field{volume}{22}
+  \field{journaltitle}{Nucl.~Phys.}
+  \field{year}{1961}
+\endentry
+
+\entry{gonzalez}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gonzalez}{G.}%
+     {Ray}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {The University of Arizona Press}%
+  }
+  \strng{namehash}{GR1}
+  \strng{fullhash}{GR1}
+  \field{labelyear}{2001}
+  \field{sortinit}{G}
+  \field{hyphenation}{american}
+  \field{indextitle}{Ghost of John Wayne and Other Stories, The}
+  \field{isbn}{0-816-52066-6}
+  \field{shorttitle}{Ghost of John Wayne}
+  \field{title}{The Ghost of John Wayne and Other Stories}
+  \list{location}{1}{%
+    {Tucson}%
+  }
+  \field{annotation}{%
+  A collection of short stories. This is a \texttt{book} entry. Note the
+  \texttt{sorttitle} and \texttt{indextitle} fields in the database file.
+  There's also an \texttt{isbn} field%
+  }
+  \field{year}{2001}
+\endentry
+
+\entry{companion}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Goossens}{G.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mittelbach}{M.}%
+     {Frank}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Samarin}{S.}%
+     {Alexander}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley}%
+  }
+  \strng{namehash}{GMMFSA1}
+  \strng{fullhash}{GMMFSA1}
+  \field{labelyear}{1994}
+  \field{sortinit}{G}
+  \field{edition}{1}
+  \field{hyphenation}{american}
+  \field{indextitle}{LaTeX Companion, The}
+  \field{pagetotal}{528}
+  \field{shorttitle}{LaTeX Companion}
+  \field{title}{The LaTeX Companion}
+  \list{location}{1}{%
+    {Reading, Mass.}%
+  }
+  \field{annotation}{%
+  A book with three authors. Note the formatting of the author list. By
+  default, only the first name is reversed in the bibliography%
+  }
+  \field{year}{1994}
+\endentry
+
+\entry{hammond}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hammond}{H.}%
+     {Christopher}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {International Union of Crystallography}%
+    {Oxford University Press}%
+  }
+  \strng{namehash}{HC1}
+  \strng{fullhash}{HC1}
+  \field{labelyear}{1997}
+  \field{sortinit}{H}
+  \field{hyphenation}{british}
+  \field{indextitle}{Basics of crystallography and diffraction, The}
+  \field{shorttitle}{Crystallography and diffraction}
+  \field{title}{The basics of crystallography and diffraction}
+  \list{location}{1}{%
+    {Oxford}%
+  }
+  \field{annotation}{%
+  A \texttt{book} entry. Note the \texttt{sorttitle} and \texttt{indextitle}
+  fields as well as the format of the \texttt{publisher} field%
+  }
+  \field{year}{1997}
+\endentry
+
+\entry{herrmann}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Herrmann}{H.}%
+     {Wolfgang~A.}{W.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{\"O}fele}{{\"O}.}%
+     {Karl}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schneider}{S.}%
+     {Sabine~K.}{S.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Herdtweck}{H.}%
+     {Eberhardt}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoffmann}{H.}%
+     {Stephan~D.}{S.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HWA+1}
+  \strng{fullhash}{HWAOKSSKHEHSD1}
+  \field{labelyear}{2006}
+  \field{sortinit}{H}
+  \field{indextitle}{Carbocyclic carbene as an efficient catalyst, A}
+  \field{number}{23}
+  \field{pages}{3859\bibrangedash 3862}
+  \field{title}{A carbocyclic carbene as an efficient catalyst ligand for C--C
+  coupling reactions}
+  \field{volume}{45}
+  \field{journaltitle}{Angew.~Chem. Int.~Ed.}
+  \field{year}{2006}
+\endentry
+
+\entry{iliad}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Homer}{H.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{translator}{1}{}{%
+    {{}%
+     {Schadewaldt}{S.}%
+     {Wolfgang}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{introduction}{1}{}{%
+    {{}%
+     {Latacz}{L.}%
+     {Joachim}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Artemis \& Winkler}%
+  }
+  \strng{namehash}{H1}
+  \strng{fullhash}{H1}
+  \field{labelyear}{2004}
+  \field{sortinit}{H}
+  \field{edition}{3}
+  \field{hyphenation}{german}
+  \field{indextitle}{Ilias, Die}
+  \field{shorttitle}{Ilias}
+  \field{title}{Die Ilias}
+  \list{location}{2}{%
+    {D{\"u}sseldorf}%
+    {Z{\"u}rich}%
+  }
+  \field{annotation}{%
+  A German translation of the \emph{Iliad}. Note the \texttt{translator} and
+  \texttt{introduction} fields and the format of the \texttt{location} field in
+  the database file. Also note the \texttt{sorttitle} and \texttt{indextitle}
+  fields%
+  }
+  \field{year}{2004}
+\endentry
+
+\entry{murray}{article}{}
+  \name{author}{14}{}{%
+    {{}%
+     {Hostetler}{H.}%
+     {Michael~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wingate}{W.}%
+     {Julia~E.}{J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhong}{Z.}%
+     {Chuan-Jian}{C.-J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harris}{H.}%
+     {Jay~E.}{J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vachet}{V.}%
+     {Richard~W.}{R.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Clark}{C.}%
+     {Michael~R.}{M.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Londono}{L.}%
+     {J.~David}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Green}{G.}%
+     {Stephen~J.}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stokes}{S.}%
+     {Jennifer~J.}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wignall}{W.}%
+     {George~D.}{G.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glish}{G.}%
+     {Gary~L.}{G.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Porter}{P.}%
+     {Marc~D.}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Evans}{E.}%
+     {Neal~D.}{N.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Murray}{M.}%
+     {Royce~W.}{R.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HMJ+1}
+  \strng{fullhash}{HMJWJEZCJHJEVRWCMRLJDGSJSJJWGDGGLPMDENDMRW1}
+  \field{labelyear}{1998}
+  \field{sortinit}{H}
+  \field{hyphenation}{american}
+  \field{indextitle}{Alkanethiolate gold cluster molecules}
+  \field{number}{1}
+  \field{pages}{17\bibrangedash 30}
+  \field{shorttitle}{Alkanethiolate gold cluster molecules}
+  \field{subtitle}{Core and monolayer properties as a function of core size}
+  \field{title}{Alkanethiolate gold cluster molecules with core diameters from
+  1.5 to 5.2~nm}
+  \field{volume}{14}
+  \field{journaltitle}{Langmuir}
+  \field{annotation}{%
+  An \texttt{article} entry with \arabic{author} authors. By default, long
+  author and editor lists are automatically truncated. This is configurable%
+  }
+  \field{year}{1998}
+\endentry
+
+\entry{hyman}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hyman}{H.}%
+     {Arthur}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {O'Meara}{O.}%
+     {Dominic~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {The Catholic University of America Press}%
+  }
+  \keyw{secondary}
+  \strng{namehash}{HA1}
+  \strng{fullhash}{HA1}
+  \field{labelyear}{1981}
+  \field{sortinit}{H}
+  \field{booktitle}{Studies in Aristotle}
+  \field{hyphenation}{american}
+  \field{indextitle}{Aristotle's Theory of the Intellect}
+  \field{number}{9}
+  \field{pages}{161\bibrangedash 191}
+  \field{series}{Studies in Philosophy and the History of Philosophy}
+  \field{shorttitle}{Aristotle's Theory of the Intellect}
+  \field{title}{Aristotle's Theory of the Intellect and its Interpretation by
+  Averroes}
+  \list{location}{1}{%
+    {Washington, D.C.}%
+  }
+  \field{annotation}{%
+  An \texttt{incollection} entry with a \texttt{series} and \texttt{number}
+  field%
+  }
+  \field{year}{1981}
+\endentry
+
+\entry{itzhaki}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Itzhaki}{I.}%
+     {Nissan}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{IN1}
+  \strng{fullhash}{IN1}
+  \field{labelyear}{1996}
+  \field{sortinit}{I}
+  \field{abstract}{%
+  We discuss the limitations of 't Hooft's proposal for the black hole
+  S-matrix. We find that the validity of the S-matrix implies violation of the
+  semi-classical approximation at scales large compared to the Planck scale. We
+  also show that the effect of the centrifugal barrier on the S-matrix is
+  crucial even for large transverse distances.%
+  }
+  \verb{eprint}
+  \verb hep-th/9603067
+  \endverb
+  \field{hyphenation}{american}
+  \field{title}{Some remarks on 't Hooft's S-matrix for black holes}
+  \field{version}{1}
+  \field{annotation}{%
+  An \texttt{online} reference from arXiv. Note the \texttt{eprint} and
+  \texttt{eprinttype} fields. Also note that the arXiv reference is transformed
+  into a clickable link if \texttt{hyperref} support has been enabled%
+  }
+  \field{eprinttype}{arxiv}
+  \field{day}{11}
+  \field{month}{03}
+  \field{year}{1996}
+\endentry
+
+\entry{jaffe}{collection}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Jaff{\'e}}{J.}%
+     {Philipp}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editora}{3}{}{%
+    {{}%
+     {Loewenfeld}{L.}%
+     {Samuel}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaltenbrunner}{K.}%
+     {Ferdinand}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ewald}{E.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \field{editoratype}{redactor}
+  \strng{namehash}{JP1}
+  \strng{fullhash}{JP1}
+  \field{labelyear}{1885\bibdatedash 1888}
+  \field{sortinit}{J}
+  \field{edition}{2}
+  \field{indextitle}{Regesta Pontificum Romanorum}
+  \field{shorttitle}{Regesta Pontificum Romanorum}
+  \field{title}{Regesta Pontificum Romanorum ab condita ecclesia ad annum post
+  Christum natum \textsc{mcxcviii}}
+  \field{volumes}{2}
+  \list{location}{1}{%
+    {Leipzig}%
+  }
+  \field{annotation}{%
+  A \texttt{collection} entry with \texttt{edition} and \texttt{volumes}
+  fields. Note the \texttt{editora} and \texttt{editoratype} fields%
+  }
+  \field{year}{1885}
+  \field{endyear}{1888}
+\endentry
+
+\entry{kant:kpv}{inbook}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{bookauthor}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Walter de Gruyter}%
+  }
+  \strng{namehash}{KI1}
+  \strng{fullhash}{KI1}
+  \field{shorthand}{KpV}
+  \field{label}{KpV}
+  \field{labelyear}{1968}
+  \field{extrayear}{1}
+  \field{sortinit}{K}
+  \field{booktitle}{Kritik der praktischen Vernunft. Kritik der Urtheilskraft}
+  \field{hyphenation}{german}
+  \field{maintitle}{Kants Werke. Akademie Textausgabe}
+  \field{pages}{1\bibrangedash 163}
+  \field{shorttitle}{Kritik der praktischen Vernunft}
+  \field{title}{Kritik der praktischen Vernunft}
+  \field{volume}{5}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{annotation}{%
+  An edition of Kant's \emph{Collected Works}, volume five. This is an
+  \texttt{inbook} entry which explicitly refers to the \emph{Critique of
+  Practical Reason} only, not to the entire fifth volume. Note the
+  \texttt{author} and \texttt{bookauthor} fields in the database file. By
+  default, the \texttt{bookauthor} is omitted if the values of the
+  \texttt{author} and \texttt{bookauthor} fields are identical%
+  }
+  \field{year}{1968}
+\endentry
+
+\entry{kant:ku}{inbook}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{bookauthor}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Walter de Gruyter}%
+  }
+  \strng{namehash}{KI1}
+  \strng{fullhash}{KI1}
+  \field{shorthand}{KU}
+  \field{label}{KU}
+  \field{labelyear}{1968}
+  \field{extrayear}{2}
+  \field{sortinit}{K}
+  \field{booktitle}{Kritik der praktischen Vernunft. Kritik der Urtheilskraft}
+  \field{hyphenation}{german}
+  \field{maintitle}{Kants Werke. Akademie Textausgabe}
+  \field{pages}{165\bibrangedash 485}
+  \field{title}{Kritik der Urtheilskraft}
+  \field{volume}{5}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{annotation}{%
+  An edition of Kant's \emph{Collected Works}, volume five. This is an
+  \texttt{inbook} entry which explicitly refers to the \emph{Critique of
+  Judgment} only, not to the entire fifth volume%
+  }
+  \field{year}{1968}
+\endentry
+
+\entry{kastenholz}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kastenholz}{K.}%
+     {M.~A.}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {H{\"u}nenberger}{H.}%
+     {Philippe~H.}{P.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KMAHPH1}
+  \strng{fullhash}{KMAHPH1}
+  \field{labelyear}{2006}
+  \field{sortinit}{K}
+  \field{abstract}{%
+  The computation of ionic solvation free energies from atomistic simulations
+  is a surprisingly difficult problem that has found no satisfactory solution
+  for more than 15 years. The reason is that the charging free energies
+  evaluated from such simulations are affected by very large errors. One of
+  these is related to the choice of a specific convention for summing up the
+  contributions of solvent charges to the electrostatic potential in the ionic
+  cavity, namely, on the basis of point charges within entire solvent molecules
+  (M scheme) or on the basis of individual point charges (P scheme). The use of
+  an inappropriate convention may lead to a charge-independent offset in the
+  calculated potential, which depends on the details of the summation scheme,
+  on the quadrupole-moment trace of the solvent molecule, and on the
+  approximate form used to represent electrostatic interactions in the system.
+  However, whether the M or P scheme (if any) represents the appropriate
+  convention is still a matter of on-going debate. The goal of the present
+  article is to settle this long-standing controversy by carefully analyzing
+  (both analytically and numerically) the properties of the electrostatic
+  potential in molecular liquids (and inside cavities within them).%
+  }
+  \verb{doi}
+  \verb 10.1063/1.2172593
+  \endverb
+  \field{eid}{124106}
+  \field{hyphenation}{american}
+  \field{indextitle}{Computation of ionic solvation free energies}
+  \field{subtitle}{I. The electrostatic potential in molecular liquids}
+  \field{title}{Computation of methodology\hyphen independent ionic solvation
+  free energies from molecular simulations}
+  \field{volume}{124}
+  \field{journaltitle}{J.~Chem. Phys.}
+  \field{annotation}{%
+  An \texttt{article} entry with an \texttt{eid} and a \texttt{doi} field. Note
+  that the \textsc{doi} is transformed into a clickable link if
+  \texttt{hyperref} support has been enabled%
+  }
+  \field{year}{2006}
+\endentry
+
+\entry{knuth:ct}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Knuth}{K.}%
+     {Donald~E.}{D.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley}%
+  }
+  \strng{namehash}{KDE1}
+  \strng{fullhash}{KDE1}
+  \field{labelyear}{1984\bibdatedash 1986}
+  \field{sortinit}{K}
+  \field{hyphenation}{american}
+  \field{indexsorttitle}{Computers & Typesetting}
+  \field{title}{Computers \& Typesetting}
+  \field{volumes}{5}
+  \list{location}{1}{%
+    {Reading, Mass.}%
+  }
+  \field{annotation}{%
+  A five-volume book cited as a whole. This is a \texttt{book} entry, note the
+  \texttt{volumes} field%
+  }
+  \field{year}{1984}
+  \field{endyear}{1986}
+\endentry
+
+\entry{knuth:ct:a}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Knuth}{K.}%
+     {Donald~E.}{D.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley}%
+  }
+  \strng{namehash}{KDE1}
+  \strng{fullhash}{KDE1}
+  \field{labelyear}{1984}
+  \field{sortinit}{K}
+  \field{hyphenation}{american}
+  \field{indexsorttitle}{The TeXbook}
+  \field{indextitle}{\TeX book, The}
+  \field{maintitle}{Computers \& Typesetting}
+  \field{shorttitle}{\TeX book}
+  \field{title}{The \TeX book}
+  \field{volume}{A}
+  \list{location}{1}{%
+    {Reading, Mass.}%
+  }
+  \field{annotation}{%
+  The first volume of a five-volume book. Note the \texttt{sorttitle} and
+  \texttt{sortyear} fields. We want this volume to be listed after the entry
+  referring to the entire five-volume set. Also note the \texttt{indextitle}
+  and \texttt{indexsorttitle} fields%
+  }
+  \field{year}{1984}
+\endentry
+
+\entry{knuth:ct:b}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Knuth}{K.}%
+     {Donald~E.}{D.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley}%
+  }
+  \strng{namehash}{KDE1}
+  \strng{fullhash}{KDE1}
+  \field{labelyear}{1986}
+  \field{extrayear}{1}
+  \field{sortinit}{K}
+  \field{hyphenation}{american}
+  \field{indexsorttitle}{TeX: The Program}
+  \field{maintitle}{Computers \& Typesetting}
+  \field{shorttitle}{\TeX}
+  \field{title}{\TeX: The Program}
+  \field{volume}{B}
+  \list{location}{1}{%
+    {Reading, Mass.}%
+  }
+  \field{annotation}{%
+  The second volume of a five-volume book. Note the \texttt{sorttitle} and
+  \texttt{sortyear} fields. Also note the \texttt{indexsorttitle} field%
+  }
+  \field{year}{1986}
+\endentry
+
+\entry{knuth:ct:c}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Knuth}{K.}%
+     {Donald~E.}{D.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley}%
+  }
+  \strng{namehash}{KDE1}
+  \strng{fullhash}{KDE1}
+  \field{labelyear}{1986}
+  \field{extrayear}{2}
+  \field{sortinit}{K}
+  \field{hyphenation}{american}
+  \field{indextitle}{METAFONTbook, The}
+  \field{maintitle}{Computers \& Typesetting}
+  \field{shorttitle}{METAFONTbook}
+  \field{title}{The METAFONTbook}
+  \field{volume}{C}
+  \list{location}{1}{%
+    {Reading, Mass.}%
+  }
+  \field{annotation}{%
+  The third volume of a five-volume book. Note the \texttt{sorttitle} and
+  \texttt{sortyear} fields as well as the \texttt{indextitle} field%
+  }
+  \field{year}{1986}
+\endentry
+
+\entry{knuth:ct:d}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Knuth}{K.}%
+     {Donald~E.}{D.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley}%
+  }
+  \strng{namehash}{KDE1}
+  \strng{fullhash}{KDE1}
+  \field{labelyear}{1986}
+  \field{extrayear}{3}
+  \field{sortinit}{K}
+  \field{hyphenation}{american}
+  \field{maintitle}{Computers \& Typesetting}
+  \field{shorttitle}{METAFONT}
+  \field{title}{METAFONT: The Program}
+  \field{volume}{D}
+  \list{location}{1}{%
+    {Reading, Mass.}%
+  }
+  \field{annotation}{%
+  The fourth volume of a five-volume book. Note the \texttt{sorttitle} and
+  \texttt{sortyear} fields%
+  }
+  \field{year}{1986}
+\endentry
+
+\entry{knuth:ct:e}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Knuth}{K.}%
+     {Donald~E.}{D.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley}%
+  }
+  \strng{namehash}{KDE1}
+  \strng{fullhash}{KDE1}
+  \field{labelyear}{1986}
+  \field{extrayear}{4}
+  \field{sortinit}{K}
+  \field{hyphenation}{american}
+  \field{maintitle}{Computers \& Typesetting}
+  \field{title}{Computer Modern Typefaces}
+  \field{volume}{E}
+  \list{location}{1}{%
+    {Reading, Mass.}%
+  }
+  \field{annotation}{%
+  The fifth volume of a five-volume book. Note the \texttt{sorttitle} and
+  \texttt{sortyear} fields%
+  }
+  \field{year}{1986}
+\endentry
+
+\entry{kowalik}{patent}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kowalik}{K.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Isard}{I.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KFIM1}
+  \strng{fullhash}{KFIM1}
+  \field{labelyear}{1995}
+  \field{sortinit}{K}
+  \field{hyphenation}{french}
+  \field{indextitle}{Estimateur d'un d{\'e}faut de fonctionnement}
+  \field{number}{9500261}
+  \field{title}{Estimateur d'un d{\'e}faut de fonctionnement d'un modulateur en
+  quadrature et {\'e}tage de modulation l'utilisant}
+  \field{type}{patreqfr}
+  \field{annotation}{%
+  This is a \texttt{patent} entry for a French patent request with a full date.
+  The number is given in the \texttt{number} field. Note the format of the
+  \texttt{type} and \texttt{date} fields in the database file. Compare
+  \texttt{almendro}, \texttt{laufenberg}, and \texttt{sorace}%
+  }
+  \field{day}{11}
+  \field{month}{01}
+  \field{year}{1995}
+\endentry
+
+\entry{laufenberg}{patent}{}
+  \name{author}{12}{}{%
+    {{}%
+     {Laufenberg}{L.}%
+     {Xaver}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eynius}{E.}%
+     {Dominique}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Suelzle}{S.}%
+     {Helmut}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Usbeck}{U.}%
+     {Stephan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spaeth}{S.}%
+     {Matthias}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Neuser-Hoffmann}{N.-H.}%
+     {Miriam}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Myrzik}{M.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmid}{S.}%
+     {Manfred}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nietfeld}{N.}%
+     {Franz}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thiel}{T.}%
+     {Alexander}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Braun}{B.}%
+     {Harald}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ebner}{E.}%
+     {Norbert}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{holder}{3}{}{%
+    {{}%
+     {{Robert Bosch GmbH}}{R.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Daimler Chrysler AG}}{D.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bayerische Motoren Werke AG}}{B.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LX+1}
+  \strng{fullhash}{LXEDSHUSSMNHMMCSMNFTABHEN1}
+  \field{labelyear}{2006}
+  \field{sortinit}{L}
+  \field{abstract}{%
+  The invention relates to an electric device comprising a generator, in
+  particular for use in the vehicle electric system of a motor vehicle and a
+  controller for controlling the generator voltage. The device is equipped with
+  a control zone, in which the voltage is controlled and zones, in which the
+  torque is controlled. The invention also relates to methods for operating a
+  device of this type.%
+  }
+  \field{hyphenation}{german}
+  \field{number}{1700367}
+  \field{title}{Elektrische Einrichtung und Betriebsverfahren}
+  \verb{file}
+  \verb http://v3.espacenet.com/textdoc?IDX=EP1700367
+  \endverb
+  \field{type}{patenteu}
+  \field{annotation}{%
+  This is a \texttt{patent} entry with a \texttt{holder} field. Note the format
+  of the \texttt{type} and \texttt{location} fields in the database file.
+  Compare \texttt{almendro}, \texttt{sorace}, and \texttt{kowalik}%
+  }
+  \field{day}{13}
+  \field{month}{09}
+  \field{year}{2006}
+\endentry
+
+\entry{loh}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Loh}{L.}%
+     {Nin~C.}{N.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LNC1}
+  \strng{fullhash}{LNC1}
+  \field{labelyear}{1992}
+  \field{sortinit}{L}
+  \field{hyphenation}{american}
+  \field{title}{High-Resolution Micromachined Interferometric Accelerometer}
+  \list{location}{1}{%
+    {Cambridge, Mass.}%
+  }
+  \list{institution}{1}{%
+    {Massachusetts Institute of Technology}%
+  }
+  \field{type}{mathesis}
+  \field{annotation}{%
+  This is a typical \texttt{thesis} entry for an MA thesis. Note the
+  \texttt{type} field in the database file which uses a localization key%
+  }
+  \field{year}{1992}
+\endentry
+
+\entry{malinowski}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Malinowski}{M.}%
+     {Bronis{\l}aw}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Routledge}%
+    {Kegan Paul}%
+  }
+  \strng{namehash}{MB1}
+  \strng{fullhash}{MB1}
+  \field{labelyear}{1972}
+  \field{sortinit}{M}
+  \field{edition}{8}
+  \field{hyphenation}{british}
+  \field{shorttitle}{Argonauts}
+  \field{subtitle}{An account of native enterprise and adventure in the
+  Archipelagoes of Melanesian New Guinea}
+  \field{title}{Argonauts of the Western Pacific}
+  \list{location}{1}{%
+    {London}%
+  }
+  \field{annotation}{%
+  This is a \texttt{book} entry. Note the format of the \texttt{publisher} and
+  \texttt{edition} fields as well as the \texttt{subtitle} field%
+  }
+  \field{year}{1972}
+\endentry
+
+\entry{markey}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Markey}{M.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MN1}
+  \strng{fullhash}{MN1}
+  \field{labelyear}{2005}
+  \field{sortinit}{M}
+  \field{hyphenation}{american}
+  \field{subtitle}{The B to X of BibTeX}
+  \field{title}{Tame the BeaST}
+  \verb{url}
+  \verb http://tug.ctan.org/tex-archive/info/bibtex/tamethebeast/ttb_en.pdf
+  \endverb
+  \field{version}{1.3}
+  \field{annotation}{%
+  An \texttt{online} entry for a tutorial. Note the format of the \texttt{date}
+  field (\texttt{yyyy-mm-dd}) in the database file.%
+  }
+  \field{day}{16}
+  \field{month}{10}
+  \field{year}{2005}
+  \field{urlday}{01}
+  \field{urlmonth}{10}
+  \field{urlyear}{2006}
+\endentry
+
+\entry{maron}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Maron}{M.}%
+     {Monika}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{translator}{1}{}{%
+    {{}%
+     {Goldstein}{G.}%
+     {Brigitte}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Nebraska Press}%
+  }
+  \strng{namehash}{MM1}
+  \strng{fullhash}{MM1}
+  \field{labelyear}{2000}
+  \field{sortinit}{M}
+  \field{hyphenation}{american}
+  \field{origlanguage}{german}
+  \field{shorttitle}{Animal Triste}
+  \field{title}{Animal Triste}
+  \list{location}{1}{%
+    {Lincoln}%
+  }
+  \field{annotation}{%
+  An English translation of a German novel with a French title. In other words:
+  a \texttt{book} entry with a \texttt{translator} field. Note the
+  \texttt{origlanguage} field which is concatenated with the
+  \texttt{translator}%
+  }
+  \field{year}{2000}
+\endentry
+
+\entry{massa}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Massa}{M.}%
+     {Werner}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Spinger}%
+  }
+  \strng{namehash}{MW1}
+  \strng{fullhash}{MW1}
+  \field{labelyear}{2004}
+  \field{sortinit}{M}
+  \field{edition}{2}
+  \field{hyphenation}{british}
+  \field{title}{Crystal structure determination}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{annotation}{%
+  A \texttt{book} entry with an \texttt{edition} field%
+  }
+  \field{year}{2004}
+\endentry
+
+\entry{moraux}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Moraux}{M.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Lloyd}{L.}%
+     {G.~E.~R.}{G.~E.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Owen}{O.}%
+     {G.~E.~L.}{G.~E.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \keyw{secondary}
+  \strng{namehash}{MP1}
+  \strng{fullhash}{MP1}
+  \field{labelyear}{1979}
+  \field{sortinit}{M}
+  \field{booktitleaddon}{Proceedings of the Seventh Symposium Aristotelicum}
+  \field{booktitle}{Aristotle on Mind and the Senses}
+  \field{hyphenation}{french}
+  \field{indexsorttitle}{De Anima dans la tradition grecque}
+  \field{indextitle}{\emph{De Anima} dans la tradition gr{\`e}cque, Le}
+  \field{pages}{281\bibrangedash 324}
+  \field{shorttitle}{\emph{De Anima} dans la tradition gr{\`e}cque}
+  \field{subtitle}{Quelques aspects de l'interpretation du trait{\'e}, de
+  Theophraste {\`a} Themistius}
+  \field{title}{Le \emph{De Anima} dans la tradition gr{\`e}cque}
+  \list{location}{1}{%
+    {Cambridge}%
+  }
+  \field{annotation}{%
+  This is a typical \texttt{inproceedings} entry. Note the
+  \texttt{booksubtitle}, \texttt{shorttitle}, \texttt{indextitle}, and
+  \texttt{indexsorttitle} fields. Also note the \texttt{eventdate} field.%
+  }
+  \field{year}{1979}
+  \field{eventyear}{1975}
+\endentry
+
+\entry{nietzsche:ksa}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Nietzsche}{N.}%
+     {Friedrich}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Colli}{C.}%
+     {Giorgio}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Montinari}{M.}%
+     {Mazzino}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Deutscher Taschenbuch-Verlag}%
+    {Walter de Gruyter}%
+  }
+  \strng{namehash}{NF1}
+  \strng{fullhash}{NF1}
+  \field{labelyear}{1988}
+  \field{extrayear}{1}
+  \field{sortinit}{N}
+  \field{edition}{2}
+  \field{hyphenation}{german}
+  \field{indexsorttitle}{Samtliche Werke}
+  \field{subtitle}{Kritische Studienausgabe}
+  \field{title}{S{\"a}mtliche Werke}
+  \field{volumes}{15}
+  \list{location}{3}{%
+    {M{\"u}nchen}%
+    {Berlin}%
+    {New York}%
+  }
+  \field{annotation}{%
+  The critical edition of Nietzsche's works. This is a \texttt{book} entry
+  referring to a 15-volume work as a whole. Note the \texttt{volumes} field and
+  the format of the \texttt{publisher} and \texttt{location} fields in the
+  database file. Also note the \texttt{sorttitle} and \texttt{sortyear} fields
+  which are used to fine-tune the sorting order of the bibliography. We want
+  this item listed first in the bibliography%
+  }
+  \field{year}{1988}
+\endentry
+
+\entry{nietzsche:ksa1}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Nietzsche}{N.}%
+     {Friedrich}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{bookauthor}{1}{}{%
+    {{}%
+     {Nietzsche}{N.}%
+     {Friedrich}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Colli}{C.}%
+     {Giorgio}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Montinari}{M.}%
+     {Mazzino}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Deutscher Taschenbuch-Verlag}%
+    {Walter de Gruyter}%
+  }
+  \strng{namehash}{NF1}
+  \strng{fullhash}{NF1}
+  \field{labelyear}{1988}
+  \field{extrayear}{2}
+  \field{sortinit}{N}
+  \field{edition}{2}
+  \field{hyphenation}{german}
+  \field{indexsorttitle}{Samtliche Werke I}
+  \field{indextitle}{S{\"a}mtliche Werke I}
+  \field{mainsubtitle}{Kritische Studienausgabe}
+  \field{maintitle}{S{\"a}mtliche Werke}
+  \field{shorttitle}{S{\"a}mtliche Werke I}
+  \field{title}{Die Geburt der Trag{\"o}die. Unzeitgem{\"a}{\ss}e Betrachtungen
+  I--IV. Nachgelassene Schriften 1870--1973}
+  \field{volume}{1}
+  \list{location}{3}{%
+    {M{\"u}nchen}%
+    {Berlin}%
+    {New York}%
+  }
+  \field{annotation}{%
+  A single volume from the critical edition of Nietzsche's works. This
+  \texttt{book} entry explicitly refers to the first volume only. Note the
+  \texttt{title} and \texttt{maintitle} fields. Also note the
+  \texttt{sorttitle} and \texttt{sortyear} fields. We want this entry to be
+  listed after the entry referring to the entire edition%
+  }
+  \field{year}{1988}
+\endentry
+
+\entry{nietzsche:historie}{inbook}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Nietzsche}{N.}%
+     {Friedrich}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{bookauthor}{1}{}{%
+    {{}%
+     {Nietzsche}{N.}%
+     {Friedrich}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Colli}{C.}%
+     {Giorgio}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Montinari}{M.}%
+     {Mazzino}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Deutscher Taschenbuch-Verlag}%
+    {Walter de Gruyter}%
+  }
+  \strng{namehash}{NF1}
+  \strng{fullhash}{NF1}
+  \field{labelyear}{1988}
+  \field{extrayear}{3}
+  \field{sortinit}{N}
+  \field{booktitle}{Die Geburt der Trag{\"o}die. Unzeitgem{\"a}{\ss}e
+  Betrachtungen I--IV. Nachgelassene Schriften 1870--1973}
+  \field{hyphenation}{german}
+  \field{indexsorttitle}{Vom Nutzen und Nachtheil der Historie fur das Leben}
+  \field{indextitle}{Vom Nutzen und Nachtheil der Historie f{\"u}r das Leben}
+  \field{mainsubtitle}{Kritische Studienausgabe}
+  \field{maintitle}{S{\"a}mtliche Werke}
+  \field{pages}{243\bibrangedash 334}
+  \field{shorttitle}{Vom Nutzen und Nachtheil der Historie}
+  \field{subtitle}{Vom Nutzen und Nachtheil der Historie f{\"u}r das Leben}
+  \field{title}{Unzeitgem{\"a}sse Betrachtungen. Zweites St{\"u}ck}
+  \field{volume}{1}
+  \list{location}{3}{%
+    {M{\"u}nchen}%
+    {Berlin}%
+    {New York}%
+  }
+  \field{annotation}{%
+  A single essay from the critical edition of Nietzsche's works. This
+  \texttt{inbook} entry explicitly refers to an essay found in the first
+  volume. Note the \texttt{title}, \texttt{booktitle}, and \texttt{maintitle}
+  fields. Also note the \texttt{sorttitle} and \texttt{sortyear} fields. We
+  want this entry to be listed after the entry referring to the entire first
+  volume%
+  }
+  \field{year}{1988}
+\endentry
+
+\entry{nussbaum}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Nussbaum}{N.}%
+     {Martha}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Princeton University Press}%
+  }
+  \keyw{secondary}
+  \strng{namehash}{NM1}
+  \strng{fullhash}{NM1}
+  \field{labelyear}{1978}
+  \field{sortinit}{N}
+  \field{hyphenation}{american}
+  \field{indexsorttitle}{Aristotle's De Motu Animalium}
+  \field{title}{Aristotle's \mkbibquote{De Motu Animalium}}
+  \list{location}{1}{%
+    {Princeton}%
+  }
+  \field{annotation}{%
+  A \texttt{book} entry. Note the \texttt{sorttitle} and
+  \texttt{indexsorttitle} fields and the markup of the quotes in the database
+  file%
+  }
+  \field{year}{1978}
+\endentry
+
+\entry{padhye}{report}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Padhye}{P.}%
+     {Jitendra}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Firoiu}{F.}%
+     {Victor}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Towsley}{T.}%
+     {Don}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PJFVTD1}
+  \strng{fullhash}{PJFVTD1}
+  \field{labelyear}{1999}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  The steady state performance of a bulk transfer TCP flow (i.e. a flow with a
+  large amount of data to send, such as FTP transfers) may be characterized by
+  three quantities. The first is the send rate, which is the amount of data
+  sent by the sender in unit time. The second is the throughput, which is the
+  amount of data received by the receiver in unit time. Note that the
+  throughput will always be less than or equal to the send rate due to losses.
+  Finally, the number of non-duplicate packets received by the receiver in unit
+  time gives us the goodput of the connection. The goodput is always less than
+  or equal to the throughput, since the receiver may receive two copies of the
+  same packet due to retransmissions by the sender. In a previous paper, we
+  presented a simple model for predicting the steady state send rate of a bulk
+  transfer TCP flow as a function of loss rate and round trip time. In this
+  paper, we extend that work in two ways. First, we analyze the performance of
+  bulk transfer TCP flows using more precise, stochastic analysis. Second, we
+  build upon the previous analysis to provide both an approximate formula as
+  well as a more accurate stochastic model for the steady state throughput of a
+  bulk transfer TCP flow.%
+  }
+  \field{hyphenation}{american}
+  \field{indextitle}{Stochastic Model of TCP Reno Congestion Avoidance and
+  Control, A}
+  \field{number}{99-02}
+  \field{title}{A Stochastic Model of TCP Reno Congestion Avoidance and
+  Control}
+  \list{location}{1}{%
+    {Amherst, Mass.}%
+  }
+  \list{institution}{1}{%
+    {University of Massachusetts}%
+  }
+  \verb{file}
+  \verb ftp://gaia.cs.umass.edu/pub/Padhey99-markov.ps
+  \endverb
+  \field{type}{techreport}
+  \field{annotation}{%
+  This is a \texttt{report} entry for a technical report. Note the format of
+  the \texttt{type} field in the database file which uses a localization key.
+  The number of the report is given in the \texttt{number} field. Also note the
+  \texttt{sorttitle} and \texttt{indextitle} fields%
+  }
+  \field{year}{1999}
+\endentry
+
+\entry{piccato}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Piccato}{P.}%
+     {Pablo}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Duke University Press}%
+  }
+  \strng{namehash}{PP1}
+  \strng{fullhash}{PP1}
+  \field{labelyear}{2001}
+  \field{sortinit}{P}
+  \field{hyphenation}{american}
+  \field{shorttitle}{City of Suspects}
+  \field{subtitle}{Crime in Mexico City, 1900--1931}
+  \field{title}{City of Suspects}
+  \list{location}{2}{%
+    {Durham}%
+    {London}%
+  }
+  \field{annotation}{%
+  This is a \texttt{book} entry. Note the format of the \texttt{location} field
+  in the database file%
+  }
+  \field{year}{2001}
+\endentry
+
+\entry{pines}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Pines}{P.}%
+     {Shlomo}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Twersky}{T.}%
+     {Isadore}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Harvard University Press}%
+  }
+  \keyw{secondary}
+  \strng{namehash}{PS1}
+  \strng{fullhash}{PS1}
+  \field{labelyear}{1979}
+  \field{sortinit}{P}
+  \field{booktitle}{Studies in Medieval Jewish History and Literature}
+  \field{hyphenation}{american}
+  \field{indextitle}{Limitations of Human Knowledge According to Al-Farabi, ibn
+  Bajja, and Maimonides, The}
+  \field{pages}{82\bibrangedash 109}
+  \field{shorttitle}{Limitations of Human Knowledge}
+  \field{title}{The Limitations of Human Knowledge According to Al-Farabi, ibn
+  Bajja, and Maimonides}
+  \list{location}{1}{%
+    {Cambridge, Mass.}%
+  }
+  \field{annotation}{%
+  A typical \texttt{incollection} entry. Note the \texttt{indextitle} field%
+  }
+  \field{year}{1979}
+\endentry
+
+\entry{reese}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Reese}{R.}%
+     {Trevor~R.}{T.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RTR1}
+  \strng{fullhash}{RTR1}
+  \field{labelyear}{1958}
+  \field{sortinit}{R}
+  \field{hyphenation}{american}
+  \field{pages}{168\bibrangedash 190}
+  \field{series}{3}
+  \field{title}{Georgia in Anglo-Spanish Diplomacy, 1736-1739}
+  \field{volume}{15}
+  \field{journaltitle}{William and Mary Quarterly}
+  \field{annotation}{%
+  An \texttt{article} entry with a \texttt{series} and a \texttt{volume} field.
+  Note the format of the series. If the value of the \texttt{series} field is
+  an integer, this number is printed as an ordinal and the string
+  \enquote*{series} is appended automatically%
+  }
+  \field{year}{1958}
+\endentry
+
+\entry{salam}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Salam}{S.}%
+     {Abdus}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Svartholm}{S.}%
+     {Nils}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Almquist \& Wiksell}%
+  }
+  \strng{namehash}{SA1}
+  \strng{fullhash}{SA1}
+  \field{labelyear}{1968}
+  \field{sortinit}{S}
+  \field{booksubtitle}{Relativistic groups and analyticity}
+  \field{booktitleaddon}{Proceedings of the Eighth Nobel Symposium}
+  \field{booktitle}{Elementary particle theory}
+  \field{pages}{367\bibrangedash 377}
+  \field{title}{Weak and Electromagnetic Interactions}
+  \field{venue}{Aspen{\"a}sgarden, Lerum}
+  \list{location}{1}{%
+    {Stockholm}%
+  }
+  \field{year}{1968}
+  \field{eventday}{19}
+  \field{eventmonth}{05}
+  \field{eventyear}{1968}
+  \field{eventendday}{25}
+  \field{eventendmonth}{05}
+  \field{eventendyear}{1968}
+\endentry
+
+\entry{shore}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Shore}{S.}%
+     {Bradd}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SB1}
+  \strng{fullhash}{SB1}
+  \field{labelyear}{1991}
+  \field{sortinit}{S}
+  \field{number}{1}
+  \field{pages}{9\bibrangedash 27}
+  \field{series}{newseries}
+  \field{subtitle}{Meaning Construction and Cultural Cognition}
+  \field{title}{Twice-Born, Once Conceived}
+  \field{volume}{93}
+  \field{journaltitle}{American Anthropologist}
+  \field{annotation}{%
+  An \texttt{article} entry with \texttt{series}, \texttt{volume}, and
+  \texttt{number} fields. Note the format of the \texttt{series} which is a
+  localization key%
+  }
+  \field{month}{03}
+  \field{year}{1991}
+\endentry
+
+\entry{sigfridsson}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sigfridsson}{S.}%
+     {Emma}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ryde}{R.}%
+     {Ulf}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SERU1}
+  \strng{fullhash}{SERU1}
+  \field{labelyear}{1998}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  Four methods for deriving partial atomic charges from the quantum chemical
+  electrostatic potential (CHELP, CHELPG, Merz-Kollman, and RESP) have been
+  compared and critically evaluated. It is shown that charges strongly depend
+  on how and where the potential points are selected. Two alternative methods
+  are suggested to avoid the arbitrariness in the point-selection schemes and
+  van der Waals exclusion radii: CHELP-BOW, which also estimates the charges
+  from the electrostatic potential, but with potential points that are
+  Boltzmann-weighted after their occurrence in actual simulations using the
+  energy function of the program in which the charges will be used, and CHELMO,
+  which estimates the charges directly from the electrostatic multipole
+  moments. Different criteria for the quality of the charges are discussed.%
+  }
+  \verb{doi}
+  \verb 10.1002/(SICI)1096-987X(199803)19:4<377::AID-JCC1>3.0.CO;2-P
+  \endverb
+  \field{hyphenation}{american}
+  \field{indextitle}{Methods for deriving atomic charges}
+  \field{number}{4}
+  \field{pages}{377\bibrangedash 395}
+  \field{title}{Comparison of methods for deriving atomic charges from the
+  electrostatic potential and moments}
+  \field{volume}{19}
+  \field{journaltitle}{Journal of Computational Chemistry}
+  \field{annotation}{%
+  An \texttt{article} entry with \texttt{volume}, \texttt{number}, and
+  \texttt{doi} fields. Note that the \textsc{doi} is transformed into a
+  clickable link if \texttt{hyperref} support has been enabled%
+  }
+  \field{year}{1998}
+\endentry
+
+\entry{sorace}{patent}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Sorace}{S.}%
+     {Ronald~E.}{R.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reinhardt}{R.}%
+     {Victor~S.}{V.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vaughn}{V.}%
+     {Steven~A.}{S.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{holder}{1}{}{%
+    {{}%
+     {{Hughes Aircraft Company}}{H.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SRERVSVSA1}
+  \strng{fullhash}{SRERVSVSA1}
+  \field{labelyear}{1997}
+  \field{sortinit}{S}
+  \field{hyphenation}{american}
+  \field{number}{5668842}
+  \field{title}{High-Speed Digital-to-RF Converter}
+  \field{type}{patentus}
+  \field{annotation}{%
+  This is a \texttt{patent} entry with a \texttt{holder} field. Note the format
+  of the \texttt{type} and \texttt{date} fields in the database file. Compare
+  \texttt{almendro}, \texttt{laufenberg}, and \texttt{kowalik}%
+  }
+  \field{day}{16}
+  \field{month}{09}
+  \field{year}{1997}
+\endentry
+
+\entry{spiegelberg}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Spiegelberg}{S.}%
+     {Herbert}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SH1}
+  \strng{fullhash}{SH1}
+  \field{labelyear}{1969}
+  \field{sortinit}{S}
+  \field{hyphenation}{german}
+  \field{indexsorttitle}{Intention und Intentionalitat in der Scholastik, bei
+  Brentano und Husserl}
+  \field{pages}{189\bibrangedash 216}
+  \field{shorttitle}{Intention und Intentionalit{\"a}t}
+  \field{title}{\mkbibquote{Intention} und \mkbibquote{Intentionalit{\"a}t} in
+  der Scholastik, bei Brentano und Husserl}
+  \field{volume}{29}
+  \field{journaltitle}{Studia Philosophica}
+  \field{annotation}{%
+  An \texttt{article} entry. Note the \texttt{sorttitle} and
+  \texttt{indexsorttitle} fields and the markup of the quotes in the database
+  file%
+  }
+  \field{year}{1969}
+\endentry
+
+\entry{springer}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Springer}{S.}%
+     {Otto}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SO1}
+  \strng{fullhash}{SO1}
+  \field{labelyear}{1950}
+  \field{sortinit}{S}
+  \field{hyphenation}{british}
+  \field{pages}{92\bibrangedash 122}
+  \field{shorttitle}{Mediaeval Pilgrim Routes}
+  \field{title}{Mediaeval Pilgrim Routes from Scandinavia to Rome}
+  \field{volume}{12}
+  \field{journaltitle}{Mediaeval Studies}
+  \field{annotation}{%
+  A plain \texttt{article} entry%
+  }
+  \field{year}{1950}
+\endentry
+
+\entry{vangennep}{book}{useprefix}
+  \name{author}{1}{}{%
+    {{}%
+     {Gennep}{G.}%
+     {Arnold}{A.}%
+     {van}{v.}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nourry}%
+  }
+  \strng{namehash}{vGA1}
+  \strng{fullhash}{vGA1}
+  \field{labelyear}{1909}
+  \field{sortinit}{V}
+  \field{hyphenation}{french}
+  \field{indextitle}{Rites de passage, Les}
+  \field{shorttitle}{Rites de passage}
+  \field{title}{Les rites de passage}
+  \list{location}{1}{%
+    {Paris}%
+  }
+  \field{annotation}{%
+  A \texttt{book} entry. Note the format of the printed name and compare the
+  \texttt{useprefix} option in the \texttt{options} field as well as
+  \texttt{brandt} and \texttt{geer}%
+  }
+  \field{year}{1909}
+\endentry
+
+\entry{vazques-de-parga}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {V{\'a}zques{ de }Parga}{V.}%
+     {Luis}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lacarra}{L.}%
+     {Jos{\'e}~Mar{\'i}a}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ur{\'i}a~R{\'i}u}{U.~R.}%
+     {Juan}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Iberdrola}%
+  }
+  \strng{namehash}{VLLJMURJ1}
+  \strng{fullhash}{VLLJMURJ1}
+  \field{labelyear}{1993}
+  \field{sortinit}{V}
+  \field{hyphenation}{spanish}
+  \field{indextitle}{Peregrinaciones a Santiago de Compostela, Las}
+  \field{note}{Ed. facs. de la realizada en 1948--49}
+  \field{shorttitle}{Peregrinaciones}
+  \field{title}{Las Peregrinaciones a Santiago de Compostela}
+  \field{volumes}{3}
+  \list{location}{1}{%
+    {Pamplona}%
+  }
+  \field{annotation}{%
+  A multivolume book cited as a whole. This is a \texttt{book} entry with
+  \texttt{volumes}, \texttt{note}, \texttt{sorttitle}, and \texttt{indextitle}
+  fields%
+  }
+  \field{year}{1993}
+\endentry
+
+\entry{wassenberg}{online}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Wassenberg}{W.}%
+     {Jan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanders}{S.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WJSP1}
+  \strng{fullhash}{WJSP1}
+  \field{labelyear}{2010}
+  \field{sortinit}{W}
+  \field{abstract}{%
+  Sorting algorithms are the deciding factor for the performance of common
+  operations such as removal of duplicates or database sort-merge joins. This
+  work focuses on 32-bit integer keys, optionally paired with a 32-bit value.
+  We present a fast radix sorting algorithm that builds upon a
+  microarchitecture-aware variant of counting sort%
+  }
+  \verb{eprint}
+  \verb 1008.2849v1
+  \endverb
+  \field{hyphenation}{american}
+  \field{title}{Faster Radix Sort via Virtual Memory and Write-Combining}
+  \field{version}{1}
+  \field{annotation}{%
+  A recent \texttt{online} reference from arXiv using the new (April 2007
+  onward) identifier format. Note the \texttt{eprint}, \texttt{eprinttype}, and
+  \texttt{eprintclass} fields. Also note that the arXiv reference is
+  transformed into a clickable link if \texttt{hyperref} support has been
+  enabled%
+  }
+  \field{eprinttype}{arxiv}
+  \field{eprintclass}{cs.DS}
+  \field{day}{17}
+  \field{month}{08}
+  \field{year}{2010}
+\endentry
+
+\entry{weinberg}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Weinberg}{W.}%
+     {Steven}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WS1}
+  \strng{fullhash}{WS1}
+  \field{labelyear}{1967}
+  \field{sortinit}{W}
+  \field{pages}{1264\bibrangedash 1266}
+  \field{title}{A Model of Leptons}
+  \field{volume}{19}
+  \field{journaltitle}{Phys.~Rev.~Lett.}
+  \field{year}{1967}
+\endentry
+
+\entry{westfahl:frontier}{collection}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Westfahl}{W.}%
+     {Gary}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Greenwood}%
+  }
+  \strng{namehash}{WG1}
+  \strng{fullhash}{WG1}
+  \field{labelyear}{2000}
+  \field{extrayear}{1}
+  \field{sortinit}{W}
+  \field{booksubtitle}{The Frontier Theme in Science Fiction}
+  \field{booktitle}{Space and Beyond}
+  \field{hyphenation}{american}
+  \field{subtitle}{The Frontier Theme in Science Fiction}
+  \field{title}{Space and Beyond}
+  \list{location}{2}{%
+    {Westport, Conn.}%
+    {London}%
+  }
+  \field{annotation}{%
+  This is a \texttt{collection} entry. Note the format of the \texttt{location}
+  field as well as the \texttt{subtitle} and \texttt{booksubtitle} fields%
+  }
+  \field{year}{2000}
+\endentry
+
+\entry{westfahl:space}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Westfahl}{W.}%
+     {Gary}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Westfahl}{W.}%
+     {Gary}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Greenwood}%
+  }
+  \strng{crossref}{westfahl:frontier}
+  \strng{namehash}{WG1}
+  \strng{fullhash}{WG1}
+  \field{labelyear}{2000}
+  \field{extrayear}{2}
+  \field{sortinit}{W}
+  \field{booksubtitle}{The Frontier Theme in Science Fiction}
+  \field{booktitle}{Space and Beyond}
+  \field{hyphenation}{american}
+  \field{indextitle}{True Frontier, The}
+  \field{pages}{55\bibrangedash 65}
+  \field{subtitle}{Confronting and Avoiding the Realities of Space in American
+  Science Fiction Films}
+  \field{title}{The True Frontier}
+  \list{location}{2}{%
+    {Westport, Conn.}%
+    {London}%
+  }
+  \field{annotation}{%
+  A cross-referenced article from a \texttt{collection}. This is an
+  \texttt{incollection} entry with a \texttt{crossref} field. Note the
+  \texttt{subtitle} and \texttt{indextitle} fields%
+  }
+  \field{year}{2000}
+\endentry
+
+\entry{worman}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Worman}{W.}%
+     {Nancy}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Texas Press}%
+  }
+  \strng{namehash}{WN1}
+  \strng{fullhash}{WN1}
+  \field{labelyear}{2002}
+  \field{sortinit}{W}
+  \field{hyphenation}{american}
+  \field{indextitle}{Cast of Character, The}
+  \field{shorttitle}{Cast of Character}
+  \field{subtitle}{Style in Greek Literature}
+  \field{title}{The Cast of Character}
+  \list{location}{1}{%
+    {Austin}%
+  }
+  \field{annotation}{%
+  A \texttt{book} entry. Note the \texttt{sorttitle} and \texttt{indextitle}
+  fields%
+  }
+  \field{year}{2002}
+\endentry
+
+\entry{yoon}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Yoon}{Y.}%
+     {Myeong~S.}{M.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ryu}{R.}%
+     {Dowook}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Jeongryul}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ahn}{A.}%
+     {Kyo~Han}{K.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{YMS+1}
+  \strng{fullhash}{YMSRDKJAKH1}
+  \field{labelyear}{2006}
+  \field{sortinit}{Y}
+  \field{indextitle}{Palladium pincer complexes}
+  \field{number}{10}
+  \field{pages}{2409\bibrangedash 2411}
+  \field{title}{Palladium pincer complexes with reduced bond angle strain:
+  efficient catalysts for the Heck reaction}
+  \field{volume}{25}
+  \field{journaltitle}{Organometallics}
+  \field{year}{2006}
+\endentry
+
+\lossort
+  \key{kant:ku}
+  \key{kant:kpv}
+\endlossort
+
+\endinput
